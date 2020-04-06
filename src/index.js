@@ -1,4 +1,4 @@
-import React from "react";
+import {Component, h} from "preact";
 import classNames from "classnames";
 import {isBrowser} from "browser-or-node";
 import prefix from "./prefixer";
@@ -94,7 +94,7 @@ const isLteIE9 = (() => {
  *
  * @type {Object}
  */
-export class Animated extends React.Component {
+export class Animated extends Component {
   constructor(props) {
     super(props);
     this.state = props.animateOnMount ? this.getNewState(props) : {};

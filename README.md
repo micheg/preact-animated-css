@@ -20,7 +20,7 @@ npm i preact-animated-css --save
 ## how to use
 very easy to use, just wrap your content with the animated component
 ```javascript
-import {Animated} from "react-animated-css";
+import {Animated} from "preact-animated-css";
 
 <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
     <div>

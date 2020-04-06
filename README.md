@@ -1,8 +1,5 @@
-# react-animated-css
-React component to show or hide elements with animations using [Animated.css](https://daneden.github.io/animate.css/)
-
-[![npm version](https://img.shields.io/npm/v/react-animated-css.svg?style=flat-square)](https://www.npmjs.com/package/react-animated-css)
-[![npm downloads](https://img.shields.io/npm/dt/react-animated-css.svg?style=flat-square)](https://www.npmjs.com/package/react-animated-css)
+# preact-animated-css
+Preact component to show or hide elements with animations using [Animated.css](https://daneden.github.io/animate.css/)
 
 ## demo
 https://digital-flowers.github.io/react-animated-css.html
@@ -10,7 +7,7 @@ https://digital-flowers.github.io/react-animated-css.html
 ## install
 
 ```bash
-npm i react-animated-css --save
+npm i preact-animated-css --save
 ```
 **Note** You have to include [Animated.css](https://daneden.github.io/animate.css/) in your html page, this component is just a wrapper for it.
 

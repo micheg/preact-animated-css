@@ -1,7 +1,7 @@
-// Type definitions for react-animated-css 1.0.2
-// Project: https://github.com/digital-flowers/react-animated-css
-// <reference types="react" />
-import {Component, Ref} from "react";
+// Type definitions for preact-animated-css 1.2.3
+// Project: https://github.com/peterszombati/preact-animated-css
+// <reference types="preact" />
+import {Component, Ref} from "preact";
 
 declare module "react-animated-css" {
   type AnimationString =

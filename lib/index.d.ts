@@ -3,7 +3,7 @@
 // <reference types="preact" />
 import {Component, Ref} from "preact";
 
-declare module "react-animated-css" {
+declare module "preact-animated-css" {
   type AnimationString =
     "bounce"
     | "flash"

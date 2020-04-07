@@ -151,32 +151,3 @@ export class Animated extends Component {
     );
   }
 }
-
-Animated.displayName = "Animated";
-
-Animated.propTypes = {
-  animateOnMount: bool,
-  isVisible: bool,
-  animationIn: string,
-  animationOut: string,
-  animationInDelay: number,
-  animationOutDelay: number,
-  animationInDuration: number,
-  animationOutDuration: number,
-  className: string,
-  style: object,
-  innerRef: func
-};
-
-Animated.defaultProps = {
-  animateOnMount: true,
-  isVisible: true,
-  animationIn: "fadeIn",
-  animationOut: "fadeOut",
-  animationInDelay: 0,
-  animationOutDelay: 0,
-  animationInDuration: 1000,
-  animationOutDuration: 1000,
-  className: "",
-  style: {}
-};

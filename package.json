@@ -8,6 +8,7 @@
     "compile": "babel -d lib/ src/ --no-comments && sed -i '' 's/React.createElement/_preact.createElement/g' lib/index.js",
     "prepublish": "npm run compile"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/micheg/preact-animated-css-fork.git"

@@ -10,7 +10,7 @@ https://digital-flowers.github.io/react-animated-css.html
 ## install
 
 ```bash
-npm i preact-animated-css --save
+npm i @micheg/preact-animated-css-fork --save
 ```
 **Note** You have to include [Animated.css](https://daneden.github.io/animate.css/) in your html page, this component is just a wrapper for it.
 
@@ -33,7 +33,7 @@ import 'animate.css';
 very easy to use, just wrap your content with the animated component
 ```javascript
 import 'animate.css';
-import {Animated} from "preact-animated-css";
+import {Animated} from "@micheg/preact-animated-css-fork";
 
 <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
     <div>

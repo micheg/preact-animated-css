@@ -1,7 +1,9 @@
 # preact-animated-css
 Preact component to show or hide elements with animations using [Animated.css](https://daneden.github.io/animate.css/)
+This is a fork created to fix some bugs and add compatibility with animate.css version 4
 
 ## demo
+(by the original author, Fareed Alnamrouti <digital.flowers@hotmail.com>)
 https://digital-flowers.github.io/react-animated-css.html
 
 ## install
@@ -13,13 +15,23 @@ npm i preact-animated-css --save
 
 ```html
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
+```
+or even better:
+```bash
+npm i animate.css --save
+```
+If you use a bundler, for example parcel:
+
+```javascript
+import 'animate.css';
 ```
 
 ## how to use
 very easy to use, just wrap your content with the animated component
 ```javascript
+import 'animate.css';
 import {Animated} from "preact-animated-css";
 
 <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
@@ -56,12 +68,22 @@ All the following animation from animated.css are supported.
 | `flash` |
 | `pulse` |
 | `rubberBand` |
-| `shake` |
+| `shakeX` |
+| `shakeY` |
 | `headShake` |
 | `swing` |
 | `tada` |
 | `wobble` |
 | `jello` |
+| `heartBeat` |
+| `backInDown` |
+| `backInLeft` |
+| `backInRight` |
+| `backInUp` |
+| `backOutDown` |
+| `backOutLeft` |
+| `backOutRight` |
+| `backOutUp` |
 | `bounceIn` |
 | `bounceInDown` |
 | `bounceInLeft` |
@@ -81,6 +103,10 @@ All the following animation from animated.css are supported.
 | `fadeInRightBig` |
 | `fadeInUp` |
 | `fadeInUpBig` |
+| `fadeInTopLeft` |
+| `fadeInTopRight` |
+| `fadeInBottomLeft` |
+| `fadeInBottomRight` |
 | `fadeOut` |
 | `fadeOutDown` |
 | `fadeOutDownBig` |
@@ -90,12 +116,21 @@ All the following animation from animated.css are supported.
 | `fadeOutRightBig` |
 | `fadeOutUp` |
 | `fadeOutUpBig` |
+| `fadeOutTopLeft` |
+| `fadeOutTopRight` |
+| `fadeOutBottomRight` |
+| `fadeOutBottomLeft` |
+| `Flippers` |
+| `flip` |
 | `flipInX` |
 | `flipInY` |
 | `flipOutX` |
 | `flipOutY` |
-| `lightSpeedIn` |
-| `lightSpeedOut` |
+| `Lightspeed` |
+| `lightSpeedInRight` |
+| `lightSpeedInLeft` |
+| `lightSpeedOutRight` |
+| `lightSpeedOutLeft` |
 | `rotateIn` |
 | `rotateInDownLeft` |
 | `rotateInDownRight` |
@@ -106,6 +141,7 @@ All the following animation from animated.css are supported.
 | `rotateOutDownRight` |
 | `rotateOutUpLeft` |
 | `rotateOutUpRight` |
+| `Specials` |
 | `hinge` |
 | `jackInTheBox` |
 | `rollIn` |
@@ -129,5 +165,5 @@ All the following animation from animated.css are supported.
 | `slideOutRight` |
 | `slideOutUp` |
 
-## note:
+## note by the original author, Fareed Alnamrouti <digital.flowers@hotmail.com>:
 From React 17.x.x [componentWillReceiveProps](https://medium.com/@baphemot/whats-new-in-react-16-3-d2c9b7b6193b#dd16) will be deprecated and a different strategy is introduced.

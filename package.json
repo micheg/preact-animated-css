@@ -1,5 +1,5 @@
 {
-  "name": "preact-animated-css-fork",
+  "name": "@micheg/preact-animated-css-fork",
   "version": "0.0.1",
   "description": "Preact component to show or hide elements with animations using [Animated.css](https://daneden.github.io/animate.css/)",
   "main": "./lib/index.js",
@@ -8,7 +8,9 @@
     "compile": "babel -d lib/ src/ --no-comments && sed -i '' 's/React.createElement/_preact.createElement/g' lib/index.js",
     "prepublish": "npm run compile"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/micheg/preact-animated-css-fork.git"
@@ -47,5 +49,8 @@
     "lodash": "^4.17.11",
     "preact": "^10.3.4",
     "prop-types": "^15.5.10"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }

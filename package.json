@@ -28,9 +28,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/peterszombati/preact-animated-css/issues"
+    "url": "https://github.com/micheg/preact-animated-css-fork/issues"
   },
-  "homepage": "https://github.com/peterszombati/preact-animated-css#readme",
+  "homepage": "https://github.com/micheg/preact-animated-css-fork#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",

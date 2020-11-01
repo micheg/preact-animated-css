@@ -1,4 +1,3 @@
-//import isPlainObject from 'lodash/isPlainObject';
 let isPlainObject = require('lodash.isplainobject');
 import prefix from './prefix';
 import isSupported from './supports';

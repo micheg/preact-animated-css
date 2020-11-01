@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "compile": "babel -d lib/ src/ --no-comments",
+    "compile": "babel -d lib/ src/ --no-comments && sed -i '' 's/React.createElement/_preact.createElement/g' lib/index.js",
     "prepublish": "npm run compile"
   },
   "repository": {
@@ -39,11 +39,12 @@
     "babel-preset-stage-0": "^6.24.1"
   },
   "dependencies": {
+    "babel-plugin-transform-react-createelement-to-jsx": "^1.1.0",
     "babel-polyfill": "^6.23.0",
     "browser-or-node": "^1.0.2",
     "classnames": "^2.2.5",
     "lodash": "^4.17.11",
-    "prop-types": "^15.5.10",
-    "preact": "^10.3.4"
+    "preact": "^10.3.4",
+    "prop-types": "^15.5.10"
   }
 }

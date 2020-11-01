@@ -1,6 +1,6 @@
 {
   "name": "@micheg/preact-animated-css-fork",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Preact component to show or hide elements with animations using [Animated.css](https://daneden.github.io/animate.css/)",
   "main": "./lib/index.js",
   "types": "./defs/index.d.ts",

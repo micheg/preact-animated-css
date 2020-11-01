@@ -1,4 +1,5 @@
-import isPlainObject from 'lodash/isPlainObject';
+//import isPlainObject from 'lodash/isPlainObject';
+let isPlainObject = require('lodash.isplainobject');
 import prefix from './prefix';
 import isSupported from './supports';
 import {ANIMATABLE_VALUES, CSS_PROPERTIES} from './constants';

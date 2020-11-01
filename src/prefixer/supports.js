@@ -1,5 +1,6 @@
 import {isBrowser} from "browser-or-node";
-import camelCase from 'lodash/camelCase';
+
+let camelCase = require('lodash.camelcase');
 
 /**
  * is the property supported, or is the value supported for the given property

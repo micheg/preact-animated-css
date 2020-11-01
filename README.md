@@ -4,6 +4,7 @@ This is a fork created to fix some bugs and add compatibility with animate.css v
 
 ## demo
 (by the original author, Fareed Alnamrouti <digital.flowers@hotmail.com>)
+
 https://digital-flowers.github.io/react-animated-css.html
 
 ## install
